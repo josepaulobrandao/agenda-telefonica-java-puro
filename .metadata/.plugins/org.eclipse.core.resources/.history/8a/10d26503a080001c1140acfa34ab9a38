@@ -1,0 +1,12 @@
+package agenda;
+
+public class Pessoa {
+	
+	private String nome;
+	private String sobreNome;
+	private String rg;
+	private String cpf;
+	private String dataNascimento;
+	
+
+}

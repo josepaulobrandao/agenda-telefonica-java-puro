@@ -1,0 +1,30 @@
+package executavel;
+
+import agenda.Pessoa;
+import agenda.Telefone;
+
+public class Programa {
+	public static void main(String[] args) {
+		
+
+		Pessoa pessoa = new Pessoa();
+		pessoa.setNome("jose paulo");
+		pessoa.setSobreNome("Nascimento Jr");
+
+		Telefone telefone = new Telefone();
+		telefone.numeroTelefone[0] = "11-9-5499-7061";
+		telefone.numeroTelefone[1] = "11-9-6446-0314";
+
+		for(String tel: telefone.getNumeroTelefone()) {
+			System.out.println(tel);
+		}
+		
+		
+	
+	
+	
+		
+		
+	}
+
+}

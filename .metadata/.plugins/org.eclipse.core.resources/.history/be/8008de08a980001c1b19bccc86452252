@@ -1,0 +1,39 @@
+package executavel;
+
+import agenda.Pessoa;
+import agenda.Telefone;
+
+public class Programa {
+	public static void main(String[] args) {
+		String[] numTelefone = {"11-95499-7061"};
+		String[] numTelefone2 = {"11-95499-7062"};
+
+
+		Pessoa pessoa = new Pessoa();
+		pessoa.setNome("jose paulo");
+		pessoa.setSobreNome("Nascimento Jr");
+		pessoa.setCpf("69-664.321.64");
+		pessoa.setDataNascimento("08/04/1694");
+		pessoa.setRg("444.644.994-7");
+		
+		Telefone telefone = new Telefone();
+		telefone.setOperadora("tim");
+		telefone.setNumeroTelefone(numTelefone);		
+		
+		telefone.setOperadora("oi");
+		telefone.setNumeroTelefone(numTelefone2);
+		
+			
+		for(String tel: telefone.getNumeroTelefone()) {
+			System.out.println(tel);
+		}
+		
+		
+		
+	
+	
+		
+		
+	}
+
+}

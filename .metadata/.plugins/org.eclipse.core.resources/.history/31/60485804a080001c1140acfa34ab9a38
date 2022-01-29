@@ -1,0 +1,8 @@
+package agenda;
+
+public class Telefone extends Pessoa {
+	private int numeroTelefone;
+	
+	
+	
+}

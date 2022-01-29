@@ -1,0 +1,17 @@
+package agenda;
+
+public class Telefone{
+	public String numeroTelefone[];
+
+	public String[] getNumeroTelefone() {
+		return numeroTelefone;
+	}
+
+	public void setNumeroTelefone(String[] numeroTelefone) {
+		this.numeroTelefone = numeroTelefone;
+	}
+	
+	
+	
+	
+}
